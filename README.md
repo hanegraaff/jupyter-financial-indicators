@@ -2,11 +2,11 @@
 
 ## Overview
 
-This notebook shows how to easily compute financial indicators like SMA and MACS using Pandas. Here is what it does:
+This notebook shows how to easily compute financial indicators like SMA and MACD using Pandas. Here is what it does:
 
-1. Downoad a set of prices from Yahoo Finance (using yfinance library), and display the chart. yfinance returns all data as a Pandas Dataframe, which makes it suitable for this exercice.
-2. Calculate the 50 and 200 Simple Moving average using the `rolling` and `mean` methods of price series and displa y the chart again.
-3. Finally compute the MACS using the `ewm` to compute exponential averages. and display the chart again.
+1. Downoad a set of prices from Yahoo Finance (using the yfinance library), and display the chart. yfinance returns all data as a Pandas Dataframe, which makes it suitable for this.
+2. Calculate the 50 and 200 day simple moving average and display the chart again.
+3. Compute the MACD indicator and display the chart a final time.
 
 ## Installation instructions   
 
